@@ -1,4 +1,5 @@
 steps:
   - name: gcr.io/cloud-builders/gsutil
+    entrypoint: 'bash'
     #    args: ["-m", "rsync", "-r", "-c", "-d", "./", "gs://$BUCKET_NAME/dags"]
-    args: ["-c","echo", "${_BUCKET_NAME}"]
+    args: ["echo", "${_BUCKET_NAME}"]
