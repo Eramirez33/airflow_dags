@@ -1,5 +1,9 @@
+#steps:
+#  - name: gcr.io/cloud-builders/ubuntu
+#    entrypoint: 'bash'
+#    #    args: ["-m", "rsync", "-r", "-c", "-d", "./", "gs://$BUCKET_NAME/dags"]
+#    args: ["echo", "${_BUCKET_NAME}"]
+#
 steps:
-  - name: gcr.io/cloud-builders/ubuntu
-    entrypoint: 'bash'
-    #    args: ["-m", "rsync", "-r", "-c", "-d", "./", "gs://$BUCKET_NAME/dags"]
-    args: ["echo", "${_BUCKET_NAME}"]
+- name: 'bash'
+  args: ['echo', '$BUCKET_NAME']
