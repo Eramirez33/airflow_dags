@@ -6,4 +6,4 @@
 #
 steps:
 - name: gcr.io/cloud-builders/gcloud
-  args: ["echo", "$BUCKET_NAME"]
+  args: ["echo", "HELLO WORLD"]
