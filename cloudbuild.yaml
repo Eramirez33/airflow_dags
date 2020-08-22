@@ -5,5 +5,5 @@
 #    args: ["echo", "${_BUCKET_NAME}"]
 #
 steps:
-- name: 'gcr.io/cloud-builders/gcloud'
-  args: ['echo', '$BUCKET_NAME']
+- name: gcr.io/cloud-builders/gcloud
+  args: ["echo", "$BUCKET_NAME"]
