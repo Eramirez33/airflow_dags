@@ -1,5 +1,5 @@
 steps:
   - name: gcr.io/cloud-builders/gsutil
-    args: ["-m", "rsync", "-r", "-c", "-d", "./dags/", "gs://$BUCKET/dags"]
-    env:
-    - 'BUCKET=$_GS_BUCKET'
+    args: ["-m", "rsync", "-r", "-c", "-d", "./dags/", "gs://$_GS_BUCKET/dags"]
+    #    env:
+    #    - 'BUCKET=$_GS_BUCKET'
