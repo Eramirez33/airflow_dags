@@ -15,7 +15,7 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
-
+# LINEA AGREGADA PARA VER SINCRONIZACION
 """Example DAG demonstrating the usage of the BashOperator."""
 
 from datetime import timedelta
