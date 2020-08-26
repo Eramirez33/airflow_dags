@@ -24,7 +24,7 @@ Documentation that goes along with the Airflow tutorial located
 # [START tutorial]
 # [START import_module]
 from datetime import timedelta
-
+from datetime import timedelta
 # The DAG object; we'll need this to instantiate a DAG
 from airflow import DAG
 # Operators; we need this to operate!
