@@ -1,6 +1,6 @@
 steps:
   - name: gcr.io/cloud-builders/gsutil
-    id: Test rsync
+    id: Test rsync with cloud build
     args: ["-m", "rsync", "-r", "-c", "-d", "./dags/", "gs://$_GS_BUCKET/dags"]
     #    env:
     #    - 'BUCKET=$_GS_BUCKET'
