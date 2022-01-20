@@ -18,6 +18,8 @@
 # LINEA AGREGADA PARA VER SINCRONIZACION
 """Example DAG demonstrating the usage of the BashOperator."""
 
+# PRUEBA
+
 from datetime import timedelta
 
 from airflow import DAG
